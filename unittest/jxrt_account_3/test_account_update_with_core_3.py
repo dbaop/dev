@@ -7,7 +7,7 @@ class test_biz_login(unittest.TestCase):
         print('开始测试')
 
     def tearDown(self):
-        print('完成测试')
+        print('完成测试了')
     def test_account_update(self):
 
         Test_Page().user_login('中通钢构','13621110000')
